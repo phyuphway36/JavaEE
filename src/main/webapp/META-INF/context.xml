@@ -1,0 +1,9 @@
+<Context>
+<Resource name="jdbc/examResult"
+auth="Container" type="javax.sql.DataSource"
+maxActive="30" maxIdle="6" maxTimeOut="10000"
+username="root" password="1234"
+driverClassName="com.mysql.cj.jdbc.Driver"
+url="jdbc:mysql://127.0.0.1:3306/examdb"
+/>
+</Context>
